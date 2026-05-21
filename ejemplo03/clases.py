@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 
 
 # se importa información del archivo configuracion
-from config import cadena_base_datos
+from configuracion import cadena_base_datos
 
 engine = create_engine(cadena_base_datos)
 
